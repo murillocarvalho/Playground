@@ -1,12 +1,20 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Courses",
+      "versionDescription": ""
     }
   ],
   "name": "Playground",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "Courses": "0Hoaj0000000GHhCAM",
+    "Courses@0.1.0-1": "04taj0000003iSjAAI"
+  }
 }

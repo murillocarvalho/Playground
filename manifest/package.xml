@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>LanguageCourseTriggerTest</members>
@@ -17,10 +17,15 @@
         <members>Language_Course__c</members>
         <name>CustomObject</name>
     </types>
+	<types>
+		<members>Language_Course_Instructor__c</members>
+		<members>Language_Course__c</members>
+		<name>CustomTab</name>
+	</types>
     <types>
         <members>Language_Course_Instructor__c.All</members>
         <members>Language_Course__c.All</members>
         <name>ListView</name>
     </types>
-    <version>62.0</version>
+	<version>60.0</version>
 </Package>
